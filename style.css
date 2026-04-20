@@ -1,0 +1,97 @@
+body{
+    background-color: #0D0D0D;
+    color: #E5E5E5;
+}
+.other-links1 a{
+    text-decoration: none;
+    color: white;
+    height: 20px;
+    border-radius: 999px;
+    position: fixed;
+    padding: 0 1260px;
+    width:15px;
+}
+.other-links2 a{
+    border-radius: 999px;
+    text-decoration: none;
+    color: white;
+    height:20px;
+    width: 15px;
+    position: fixed;
+    padding: 0 1300px;
+
+}
+.otherlinks{
+  display: flex;
+  gap: 10px; /* space between icons */
+  top: 40px;
+  left: 0;
+}
+.links a {
+    text-decoration:none ;
+    width: 30px;
+    border-radius: 10px;
+    position: relative;
+    height: 30px;
+    display: block;
+    color: white;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.links a:hover{
+    background-color:#333333;
+}
+button{
+      position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    min-height: 37px;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(71, 72, 128);
+    min-width: 95px;
+}
+button:hover{
+        background-color:  rgb(110, 110, 167);;
+}
+li{
+    height: 30px;
+    display: block;
+    color: white;
+    width: auto;
+    position: fixed;
+    border-radius: 10px;
+padding: 0 100px;
+cursor: pointer;
+}
+p{
+      transform: translateX(-50%);
+    font-size: 30px;
+    position: fixed;
+    left: 50%;
+    top: 195px;
+    padding:10 20px;
+    z-index: -1000;
+    font-family: sans-serif;
+}
+.search{
+    box-shadow: 0 0 10px grey;
+    position: relative;
+    top: 60px;
+    border-radius: 25px;
+    border: #333333;
+    color: #E5E5E5;
+    min-height: 45px;
+    width: 650px;
+    background-color: #1A1A1A;
+}
+.fa-solid fa-microphone{
+    position: absolute;
+}
+.search::placeholder{
+    color: #A0A0A0;
+}
